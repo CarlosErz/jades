@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export function Navbar() {
   const [isActive, setIsActive] = useState(false);
@@ -17,29 +18,29 @@ export function Navbar() {
           <nav className={`navbarul ${isActive ? 'active' : ''}`}>
             <ul>
               <li>
-                <a to="/ecopads">
+                <Link to="/ecopads">
                   <i className="far fa-seedling"></i> <span>Ecopads</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a to="/como-mantenerla-limpia">
+                <Link to="/como-mantenerla-limpia">
                   <i className="far fa-soap"></i> <span>Como mantenerloa limpia?</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a to="/productos-a-utilizar">
+                <Link to="/productos-a-utilizar">
                   <i className="far fa-shopping-cart"></i> <span>Productos a utilizar </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a to="tips">
+                <Link to="tips">
                   <i className="far fa-plus"></i> <span>Tips</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a to="contacto">
+                <Link to="contacto">
                   <i className="far fa-handshake"></i> <span>Quienes somos?</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
