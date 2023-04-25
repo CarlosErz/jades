@@ -1,7 +1,8 @@
 import '@styles/style.css'
 import { HomePague } from '@components/HomePague.jsx'
 import { BrowserRouter,Routes, Route } from 'react-router-dom'
-import { Ecopads } from './components/Ecopads'
+import { Ecopads } from '@components/Ecopads'
+import {Not} from '@components/Not'
 import { ComoMantenerlaLimpia } from './pages/ComoMantenerlaLimpia'
 import { ProductosaUtilizar } from './pages/ProductosaUtilizar'
 import { Tips } from './pages/Tips'
@@ -13,6 +14,7 @@ function App() {
   <>
     <BrowserRouter>
       <Routes>
+        <Route path="*" element={<Not />} />
         <Route path="/" element={<HomePague />} />
         <Route index element={<HomePague />} />
         <Route path='/ecopads' exact element={<Ecopads></Ecopads>} />
