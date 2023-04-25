@@ -17,27 +17,27 @@ export function Navbar() {
           <nav className={`navbarul ${isActive ? 'active' : ''}`}>
             <ul>
               <li>
-                <a href="ecopads">
+                <a to="/ecopads">
                   <i className="far fa-seedling"></i> <span>Ecopads</span>
                 </a>
               </li>
               <li>
-                <a href="como-mantenerla-limpia">
+                <a to="/como-mantenerla-limpia">
                   <i className="far fa-soap"></i> <span>Como mantenerloa limpia?</span>
                 </a>
               </li>
               <li>
-                <a href="productos-a-utilizar">
+                <a to="/productos-a-utilizar">
                   <i className="far fa-shopping-cart"></i> <span>Productos a utilizar </span>
                 </a>
               </li>
               <li>
-                <a href="tips">
+                <a to="tips">
                   <i className="far fa-plus"></i> <span>Tips</span>
                 </a>
               </li>
               <li>
-                <a href="contacto">
+                <a to="contacto">
                   <i className="far fa-handshake"></i> <span>Quienes somos?</span>
                 </a>
               </li>
