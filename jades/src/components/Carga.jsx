@@ -1,4 +1,4 @@
-import '../css/var.css'
+import '@styles/var.css'
 export function Carga() {
   return (
     <section className='base'>
