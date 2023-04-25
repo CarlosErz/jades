@@ -309,6 +309,18 @@ nav {
   .CMLFlex{
     display: flex;
     flex-direction: column;
+    height: 100ch;
+  }
+  .CML_title{
+    font-size: 30px;
+    height: 30vh;
+    display: block;
+  }
+  .CML_img{
+    width: 50%;
+  }
+  .CML_text li {
+    font-size: 16px;
   }
   .hero_title {
     font-size: 20px;
@@ -551,7 +563,13 @@ nav {
     margin-bottom: 100px;
     width: 100%;
   }
-
+  .CML_title{
+    font-size: 16px;
+    height: 10vh;
+  }
+  .CML_text li {
+    font-size: 10px;
+  }
   .title_404 {
     font-size: 5rem;
     color: var(--tono3);
