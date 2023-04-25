@@ -24,7 +24,7 @@ export function Navbar() {
               </li>
               <li>
                 <Link to="/como-mantenerla-limpia">
-                  <i className="far fa-soap"></i> <span>Como mantenerloa limpia?</span>
+                  <i className="far fa-soap"></i> <span>Como mantenerlo limpia?</span>
                 </Link>
               </li>
               <li>
@@ -33,12 +33,12 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="tips">
+                <Link to="/tips">
                   <i className="far fa-plus"></i> <span>Tips</span>
                 </Link>
               </li>
               <li>
-                <Link to="contacto">
+                <Link to="/contacto">
                   <i className="far fa-handshake"></i> <span>Quienes somos?</span>
                 </Link>
               </li>

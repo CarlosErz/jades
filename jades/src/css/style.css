@@ -254,6 +254,7 @@ nav {
 
 .CML_contenido {
   display: flex;
+  height: 100%;
   flex-direction: column;
   background-color: var(--tono2);
 }
@@ -287,15 +288,13 @@ nav {
   grid-template-columns: repeat(2, 50%);
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 
 }
 
 .CML_img {
-  position: relative;
-  left: 15%;
-  width: 45rem;
+  width: 100%;
 
 }
 
@@ -307,6 +306,10 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  .CMLFlex{
+    display: flex;
+    flex-direction: column;
+  }
   .hero_title {
     font-size: 20px;
     width: 100%;
