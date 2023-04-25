@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { Carga } from '@components/Carga.jsx';
 
 export function HomePague(){
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -34,7 +35,6 @@ export function HomePague(){
 
       )}
     </div>
-
-
   )
 }
+

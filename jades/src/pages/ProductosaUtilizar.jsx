@@ -1,8 +1,8 @@
 import hero_img from '/src/assets/header img.png'
-import { Navbar } from './Navbar'
+import { Navbar } from '../components/Navbar'
 //esto ira cuando le pique a el bnt del ver mas 
 
-export function Ecopads() {
+export function ProductosaUtilizar() {
   return (
     <main>
       <Navbar></Navbar>

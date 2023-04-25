@@ -11,6 +11,7 @@ body {
   letter-spacing: 4px;
   font-size: 20px;
   padding: 10px;
+  text-decoration: none;
   color: var(--tono3);
 }
 
@@ -19,6 +20,30 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 1px rgb(0 0 0/7%), 0 2px 4px rgb(0 0 0/5%), 0 12px 24px rgb(0 0 0/5%);
+}
+
+nav {
+  position: relative;
+  float: left;
+}
+
+.content ul li {
+  margin-bottom: 15px;
+  list-style: none;
+  margin-left: 28px;
+  float: left;
+}
+
+.content ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--tono3);
+}
+
+.content :hover {
+  color: #ffffff;
 }
 
 .container {
@@ -33,6 +58,7 @@ body {
 
 .btn_navbar {
   display: flex;
+  background-color: var(--tono1);
   justify-content: center;
   align-items: center;
   width: 48px;
@@ -98,7 +124,7 @@ body {
   color: var(--tono3);
   letter-spacing: 0.60rem;
   font-weight: bold;
-  width: 663.43px;
+  width: 10pxx;
 }
 
 .hero_btn {
@@ -175,13 +201,15 @@ body {
 }
 .ecopads{
   background-color: var(--tono1);
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 .ecopads_title{
+  top: 60px;
+  position: relative;
   font-size: 60px;
   color: var(--tono4);
   text-align: center;
@@ -195,7 +223,7 @@ body {
   grid-template-columns: repeat(2, 50%);
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   
 }
@@ -205,7 +233,7 @@ body {
   width: 20rem;
 }
 .ecopads_text{
-  width: 100%;
+  width: 90%;
   text-align: left;
   font-size: 25px;
   color: var(--tono3);
@@ -240,6 +268,56 @@ body {
   color: var(--tono4);
   text-align: center;
 }
+
+.CML_contenido{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tono2);
+ }
+
+ .CML ul {}
+
+ .CML{
+   background-color: var(--tono1);
+   height: 80vh;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .CML_title{
+   top: 60px;
+   position: relative;
+   font-size: 60px;
+   color: var(--tono3);
+   text-align: center;
+   margin: 0;
+   padding: 10px;
+   letter-spacing: 0.60rem;
+   font-weight: bold;
+ }
+ .CMLFlex{
+   display: grid;
+   grid-template-columns: repeat(2, 50%);
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+   width: 100%;
+   
+ }
+ .CML_img{
+   position: relative;
+   left: 15%;
+   width: 45rem;
+   
+ }
+ .CML_text{
+   width: 90%;
+   text-align: left;
+   font-size: 20px;
+   color: var(--text);
+ }
 
 @media screen and (max-width: 768px) {
   .hero_title {
