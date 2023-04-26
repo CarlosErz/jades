@@ -12,13 +12,13 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+      <Route path="*" element={<Not />} />
         <Route path="/" element={<HomePague />} />
         <Route path="/ecopads" element={<Ecopads />} />
         <Route path="/limpia" element={<ComoMantenerlaLimpia />} />
         <Route path="/utilizar" element={<ProductosaUtilizar />} />
         <Route path="/tips" element={<Tips />} />
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="*" element={<Not />} />
       </Routes>
     </BrowserRouter>
   );
