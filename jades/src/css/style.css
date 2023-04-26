@@ -475,21 +475,17 @@ nav {
 
 
   .btn_navbar span {
-
+    width: 20px;
     transition: all 0.3s ease-in-out;
   }
 
   .btn_navbar.active span:nth-child(2) {
-    opacity: 100;
   }
 
   .btn_navbar.active span:nth-child(1) {
     transform: translateY(10px) rotate(70deg);
   }
 
-  .btn_navbar.active span:nth-child(3) {
-    transform: translateY(-10px) rotate(-45deg);
-  }
 }
 
 
