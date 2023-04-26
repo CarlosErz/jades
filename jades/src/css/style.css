@@ -479,9 +479,6 @@ nav {
     transition: all 0.3s ease-in-out;
   }
 
-  .btn_navbar.active span:nth-child(2) {
-  }
-
   .btn_navbar.active span:nth-child(1) {
     transform: translateY(10px) rotate(70deg);
   }
