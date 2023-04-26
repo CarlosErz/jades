@@ -23,22 +23,22 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/como-mantenerla-limpia">
+                <Link to='/limpia'>
                   <i className="far fa-soap"></i> <span>Como mantenerlo limpia?</span>
                 </Link>
               </li>
               <li>
-                <Link to="/productos-a-utilizar">
+                <Link to='/utilizar'>
                   <i className="far fa-shopping-cart"></i> <span>Productos a utilizar </span>
                 </Link>
               </li>
               <li>
-                <Link to="/tips">
+                <Link to='/tips'>
                   <i className="far fa-plus"></i> <span>Tips</span>
                 </Link>
               </li>
               <li>
-                <Link to="/contacto">
+                <Link to='/contacto'>
                   <i className="far fa-handshake"></i> <span>Quienes somos?</span>
                 </Link>
               </li>
