@@ -1,6 +1,5 @@
 import hero_img from '/src/assets/header img.png'
 import { Navbar } from './Navbar'
-//esto ira cuando le pique a el bnt del ver mas 
 
 export function Ecopads() {
   return (
